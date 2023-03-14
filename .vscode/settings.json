@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+    "emmet.preferences": {},
+    "editor.formatOnSave": true
+}

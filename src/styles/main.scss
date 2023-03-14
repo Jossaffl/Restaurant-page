@@ -1,0 +1,118 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background-image: url('../img/makis.src.avif');
+
+}
+
+.headerDiv {
+
+    display: flex;
+    border: solid;
+    border-color: black;
+    background-color: peachpuff;
+    width: 100vw;
+    height: 5vh;
+    justify-content: center;
+    opacity: 0.8;
+
+
+}
+
+#content {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    flex-wrap: wrap;
+
+}
+
+
+#bodyDiv {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px
+}
+
+.textDiv {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    color: black;
+    letter-spacing: 2px;
+    width: 600px;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.footDiv {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: peachpuff;
+    opacity: 0.8;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 50px;
+
+}
+
+.menu-items {
+    box-sizing: border-box;
+    width: 280px;
+    height: 200px;
+    background-color: grey;
+    opacity: 0.8;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+img {
+    height: 150px;
+    width: 165px;
+}
+
+#croquis {
+    height: 400px;
+    width: 450px;
+}
+
+.phone {
+    width: 300px;
+    font-size: larger;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+button {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: 600;
+    opacity: 1;
+    background-color: azure;
+    border-radius: 30px;
+
+}
